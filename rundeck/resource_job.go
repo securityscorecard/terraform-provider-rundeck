@@ -26,7 +26,6 @@ func resourceRundeckJob() *schema.Resource {
 			"group_name": {
 				Type:     schema.TypeString,
 				Optional: true,
-				ForceNew: true,
 			},
 
 			"project_name": {
